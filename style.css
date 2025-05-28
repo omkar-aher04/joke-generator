@@ -1,0 +1,86 @@
+body{
+background: linear-gradient(to left bottom, lightblue, lightpink, lightblue);
+height: auto;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 260px;
+    width: 1000px;
+    margin: auto;
+    margin-top: 10%;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, .3);
+    background-color: rgba(255, 255, 255, .3);
+    border-radius: 15px;
+}
+h1{
+    color: #41079d;
+    text-shadow: 0 3px 5px rgba(64, 65, 66, 0.962);
+    letter-spacing: 0.5vw;
+}
+
+    
+         .btn-grad {background-image: linear-gradient(to right, #085078 0%, #85D8CE  51%, #085078  100%)}
+         .btn-grad {
+            margin: 10px;
+            padding: 15px 45px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            box-shadow: 0 0 20px #eee;
+            border-radius: 10px;
+            display: block;
+            border: none;
+                color: rgb(12, 39, 62);
+                font-weight: 600;
+                font-size:1vw;
+
+          }
+
+          .btn-grad:hover {
+            background-position: right center; /* change the direction of the change here */
+       color: #41079d;
+            text-decoration: none;
+          }
+         
+.result-joke{
+    background:linear-gradient(to right, #33789d 0%, #7be9dc  51%, #ebc109  100%);
+    font-weight: 600;
+    border-radius: 5px;
+    /* height: 20px; */
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 16px;
+        padding: 10px;
+        
+    }
+
+    .main {
+        width: 90%;
+        padding: 20px;
+        margin-top: 40%;
+        text-align: center;
+    }
+
+    .title {
+        font-size: 24px;
+    }
+
+    .result-joke {
+        font-size: 18px;
+        margin-top: 20px;
+        display: inline-block;
+    }
+
+    .btn-grad {
+        font-size: 18px;
+        padding: 12px 20px;
+        width: 100%;
+        max-width: 300px;
+    }
+}
